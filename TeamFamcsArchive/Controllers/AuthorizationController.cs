@@ -6,8 +6,11 @@ using System.Web.Mvc;
 
 namespace TeamFamcsArchive.Controllers
 {
-    public class AccountController : Controller
+    public class AuthorizationController : Controller
     {
+        //
+        // GET: /Authorization/
+
         public ActionResult Index()
         {
             return View();
